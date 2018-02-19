@@ -12,6 +12,12 @@ Ok, I couldn't find a good reason to have this project here. I suppose, this ser
 
 ---
 
+### Live Demo
+
+[**Here**][3] is the live demo (will automatically create a `Company` IndexedDB with `Customers` collection, and batch load some test data, as soon as you open this)!
+
+---
+
 ### How to run?
 
 * Install Node modules:
@@ -36,11 +42,12 @@ Ok, I couldn't find a good reason to have this project here. I suppose, this ser
 
 #### Deployment notes:
 
-Project will be hosted on port `8080`. If you require port flexibility, feel free to integrate the module [**Portfinder**][3].
+Project will be hosted on port `8080`. If you require port flexibility, feel free to integrate the module [**Portfinder**][4].
 
-The prod-server is defined in [**buid/prod-server.js**][4].
+The prod-server is defined in [**buid/prod-server.js**][5].
 
 [1]: https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API
 [2]: https://react-md.mlaursen.com/
-[3]: https://www.npmjs.com/package/portfinder
-[4]: https://github.com/Jaskaranbir/React-MD_IndexedDB_Example/blob/master/build/prod-server.js
+[3]: https://jaskaranbir.github.io/React-MD_IndexedDB_Example/
+[4]: https://www.npmjs.com/package/portfinder
+[5]: https://github.com/Jaskaranbir/React-MD_IndexedDB_Example/blob/master/build/prod-server.js

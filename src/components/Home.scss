@@ -1,0 +1,43 @@
+@import 'globals';
+
+.home {
+  text-align: center;
+}
+
+.home-header {
+  background-color: $md-grey-900;
+  padding: 20px;
+
+  h2 {
+    margin-bottom: 0;
+    color: $md-white-base;
+  }
+}
+
+.card {
+  margin-top: 50px;
+  // height: 120px;
+
+  .link {
+    text-decoration: none;
+  }
+
+  .cell-item {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform: translateX(-50%);
+    left: 50%;
+    padding: 30px;
+    text-align: center;
+    color: $md-grey-900;
+
+    .cell-item-text {
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+      font-family: Roboto;
+      font-size: 24px;
+    }
+  }
+}

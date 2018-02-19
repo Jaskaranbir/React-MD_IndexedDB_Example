@@ -1,6 +1,6 @@
 ## React Material-Design Example
 
-...using [**IndexedDB**][1] (for some reason).
+...using [**react-md**][2] and [**IndexedDB**][1] (for some reason).
 
 ---
 

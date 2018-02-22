@@ -1,3 +1,5 @@
-This directory is simply used to host this app on Github Pages.
+This directory is simply used to host this app on Github Pages. Changes implemented:
 
-Its basically running the command `npm run build`, then editing the HTML files to make the script/style paths relative.
+* Change relative path to script and style files.
+
+* Change React-Router paths to match Github-Pages URIs (prefixing routes with `/React-MD_IndexedDB_Example`).
